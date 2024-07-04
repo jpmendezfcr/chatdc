@@ -114,6 +114,7 @@ export function collectModelsWithDefaultModel(
     customModels,
     defaultModel,
   );
+
   const allModels = Object.values(modelTable);
   return allModels;
 }
